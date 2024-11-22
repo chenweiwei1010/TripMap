@@ -1,0 +1,111 @@
+body {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.nav-item {
+    padding: 10px 20px;
+}
+
+.nav-item a {
+    color: #505050;
+}
+
+.active {
+    color: white;
+}
+
+a.bottom-nav.active {
+    background-color: #009D49 !important;
+}
+
+
+.nav-bottom {
+    border-top: 1px solid #b3b3b3;
+}
+
+.nav-pills .nav-item p {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.btn-primary {
+    background-color: #009D49;
+    border: 0;
+    font-size: 12px;
+    }
+
+.map-image {
+    background-image: url('../image/TripMap\ -1.png');
+    width: 100%;
+    height: 80vh;
+    background-size: 100%;
+}
+
+.nav-underline .nav-link.active {
+    border-bottom-color:  #009D49;
+}
+
+
+.attraction-card-img {
+    width: 200px;
+    height: 120px;
+    background-size: 100%;
+}
+
+h5 {
+    font-size: 14px;
+    font-weight:bold;
+}
+
+.card-text {
+    font-size: 14px;
+}
+
+.rating-dot-1 {
+    background-color: #009D49;
+    width: 12px;
+    height: 12px;
+    border: solid 2px #009D49;
+    border-radius: 50%;
+}
+
+.rating-dot-2 {
+    width: 12px;
+    height: 12px;
+    border: solid 2px #009D49;
+    border-radius: 50%;
+}
+
+.attraction-card {
+    flex: 0 0 auto; 
+    width: 320px;
+}
+
+.attraction-card-container {
+    display: flex;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    gap: 10px;
+}
+
+.attraction-card-container::-webkit-scrollbar {
+    display: none;
+}
+
+.list-btn {
+    width: 16rem;
+    border-radius: 8rem;
+    margin-top: 32rem;
+}
+
+.plan-btn {
+    width: 150px
+}
+
+.plan-card-img {
+    width: 200px;
+    height: 140px;
+    background-size: 100%;
+}
